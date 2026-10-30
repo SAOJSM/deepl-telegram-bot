@@ -2,6 +2,8 @@
 
 [English](README_EN.md) | [繁體中文](README.md)
 
+> **基於 DeepL API 與 Telegram Bot 的智慧多語言即時翻譯機器人（支援繁體中文）。**
+
 可在所有 Linux 系統中執行（最低配置需求 **Ubuntu 20.04 LTS+**）的 Telegram 自動翻譯機器人。基於官方 **DeepL API** 與 **Telegram Bot API**，提供高精準度、語意自然的翻譯服務。傳送任意語言的文字給機器人，即可自動偵測源語言並即時翻譯為**繁體中文 (Traditional Chinese)**。
 
 ---

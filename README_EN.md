@@ -2,6 +2,8 @@
 
 [English](README_EN.md) | [繁體中文](README.md)
 
+> **Telegram translation bot powered by DeepL API with auto language detection and Traditional Chinese support.**
+
 A Telegram automatic translation bot capable of running on all Linux distributions (minimum requirement: **Ubuntu 20.04 LTS+**). Powered by the official **DeepL API** and **Telegram Bot API**, it delivers high-accuracy, fluent, and context-aware translations. Simply send any text in any language to the bot, and it will automatically detect the source language and translate it into **Traditional Chinese (`ZH-HANT`)** (or any configured target language) in real time.
 
 ---
