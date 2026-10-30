@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  deepl-telegram-bot:
+    build: .
+    container_name: deepl_telegram_bot
+    restart: always
+    volumes:
+      # 掛載本地端的 config.ini，方便隨時修改免重新構建映象檔
+      - ./config.ini:/app/config.ini:ro
+    environment:
+      - TZ=Asia/Taipei

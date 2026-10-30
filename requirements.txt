@@ -1,0 +1,6 @@
+# DeepL Telegram Bot Dependencies
+# 相容性：Ubuntu 20.04 LTS (Python 3.8+) 及後續版本 (Ubuntu 22.04 / 24.04)
+
+pyTelegramBotAPI>=4.15.0,<5.0.0
+deepl>=1.15.0,<2.0.0
+requests>=2.28.0

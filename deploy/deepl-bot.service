@@ -1,0 +1,20 @@
+[Unit]
+Description=DeepL Telegram Translation Bot Service
+After=network.target
+
+[Service]
+Type=simple
+# 執行使用者（請替換為您的 Ubuntu 使用者名稱，如 ubuntu 或 root）
+User=ubuntu
+# 專案絕對路徑
+WorkingDirectory=/opt/deepl-telegram-bot
+# 虛擬環境內的 Python 執行檔路徑
+ExecStart=/opt/deepl-telegram-bot/.venv/bin/python3 /opt/deepl-telegram-bot/bot.py
+# 若異常終止則自動重啟
+Restart=always
+RestartSec=5
+# 環境變數設定
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

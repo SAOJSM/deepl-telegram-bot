@@ -1,0 +1,39 @@
+[telegram]
+# 請向 Telegram 的 @BotFather 申請機器人獲取 Token
+bot_token = YOUR_TELEGRAM_BOT_TOKEN_HERE
+
+# 允許使用機器人的 Telegram User ID（選填）
+# 多個 ID 請用逗號分隔，例如：12345678,87654321
+# 留空則代表公開，所有人皆可傳訊息翻譯
+allowed_user_ids = 
+
+[deepl]
+# DeepL API 金鑰 (Free 版通常以 :fx 結尾，Pro 版無 :fx)
+api_key = YOUR_DEEPL_API_KEY_HERE
+
+# API 伺服器網址（選填）
+# 留空時，程式會根據 api_key 是否含 :fx 自動切換 api-free.deepl.com 或 api.deepl.com
+server_url = 
+
+# 每月字數安全上限閾值（選填）
+# 當當月累積使用字數達到此上限時停止翻譯，避免徹底耗盡額度 (留空或 0 則不限制，直接以官方 500,000 字上限為準)
+# 建議設為 490000（預留 10,000 字作為安全緩衝）
+monthly_limit = 490000
+
+# 即將超過限額的警告百分比 (選填，例如 90 代表達到 90% 時會在翻譯回覆中加入用量提醒；0 則不提醒)
+warning_percent = 90
+
+[translation]
+# 源語言 (Source Language)
+# 設定為 AUTO 或留空，DeepL 會自動偵測輸入語言
+# 若需指定，可填寫語言代碼，如：EN, JA, KO, DE, FR 等
+source_lang = AUTO
+
+# 目標語言 (Target Language)
+# 繁體中文請填寫：ZH-HANT
+# 簡體中文為：ZH 或 ZH-HANS
+# 其他常見：EN-US, JA, KO 等
+target_lang = ZH-HANT
+
+# 是否在回覆中顯示偵測到的語言（例如：[偵測語言: EN]）
+show_detected_lang = true

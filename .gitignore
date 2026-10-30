@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# 虛擬環境
+.venv/
+env/
+venv/
+ENV/
+
+# 設定檔與敏感資訊 (包含 API Key 與 Token)
+config.ini
+!config.ini.example
+.env
+.env.*
+*.pem
+*.key
+
+# IDE 與編輯器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 日誌與暫存檔
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
