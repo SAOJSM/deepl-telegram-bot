@@ -223,3 +223,4 @@ A: The project includes built-in budget and quota guards:
 1. **Safety Cutoff (`monthly_limit = 490000`)**: If usage reaches 490,000 characters (leaving a 10,000-character safety buffer), the bot stops translating and warns you, avoiding unexpected charges or quota exhaustion.
 2. **Warning Alerts (`warning_percent = 90`)**: When usage reaches 90% (450,000 characters), replies will include an alert header reminding you of the remaining balance.
 3. **On-Demand Inspection (`/status`)**: Send or tap `/status` at any time to inspect real-time usage and remaining characters.
+
